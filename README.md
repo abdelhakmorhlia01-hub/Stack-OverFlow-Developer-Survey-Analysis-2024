@@ -3,15 +3,16 @@
 ***Project Overview***
 
 This project analyzes the Stack Overflow Developer Survey to uncover key insights about developers' current and future technology preferences and demographic characteristics. The analysis covers technology categories such as languages, platforms, frameworks, and databases, as well as demographic factors including age, country, education level, role, and work model. It also examines how these factors influence annual compensation.
+
 The project follows a complete data workflow including data loading, cleaning, analysis, and feature engineering using Python, and the development of interactive dashboards in Looker Studio to visualize and communicate the findings effectively.
 
 🎯 ***Objectives***
 
-Identify popular technologies
-Explore future technology trends
-Analyze developer demographics
-Explore salary distribution and influencing factors
-Build an interactive dashboard for insights
+- Identify popular technologies
+- Explore future technology trends
+- Analyze developer demographics
+- Explore salary distribution and influencing factors
+- Build an interactive dashboard for insights
 
 🗂️ ***Dataset***
 
@@ -20,7 +21,7 @@ Format: CSV
 Records: 65,000
 🔗 Data Workflow
 
-***Data Loading***
+### ***Data Loading***
 
 Imported CSV into Python using Pandas
 
@@ -40,7 +41,7 @@ Analyzed annual compensation across different categories to identify salary tren
 Examined the most commonly used and desired languages, platforms, databases, and frameworks.
 Grouped data and calculated summary statistics such as average salary and technology usage frequency.
 
-3. ***Feature Engineering***
+3.***Feature Engineering***
 
 Split multi-value categorical columns (e.g., programming languages, databases, platforms, and web frameworks) into individual values to enable clear visualization.
 Created separate structured tables for each technology category such as languages and platforms.
@@ -62,11 +63,11 @@ Built an interactive dashboard in Looker Studio showing:
 ![Dashboard Screenshot 3](dashboard/dashboard_3.png)
 ![Dashboard Screenshot 4](dashboard/dashboard_4.png)
 
-## 🌐 Live Dashboard
+### 🌐 Live Dashboard
 
 [View Interactive Dashboard](https://lookerstudio.google.com/reporting/04ee0546-a07c-42cd-b1cd-0aff7dc72c23)
 
-🔎 Key Insights
+### 🔎 Key Insights
 
 - JavaScript, SQL, and HTML/CSS are the most widely used languages, while specialized technologies such as Bash/Shell and DynamoDB are associated with higher average salaries.
 - PostgreSQL and Amazon Web Services (AWS) are the most commonly used and desired database and platform, highlighting their dominance in the modern development ecosystem.
@@ -75,13 +76,14 @@ Built an interactive dashboard in Looker Studio showing:
 - Hybrid work is the most common model, while fully remote developers tend to earn higher average compensation.
 - Most developers are aged 25–34 and hold a Bachelor's degree, representing the core demographic of the developer workforce.
 
-🛠️ Tools Used
+### 🛠️ Tools Used
 
 - Python (Pandas, NumPy, Matplotlib, Seaborn)
 - Looker Studio
 - Git & GitHub
-- 
-👤 Author
+
+### 👤 Author
 
 Abdelhak Morhlia
+
 
