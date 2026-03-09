@@ -16,10 +16,11 @@ The project follows a complete data workflow including data loading, cleaning, a
 
 🗂️ ***Dataset***
 
-Source: Stack Overflow Developer Survey
-Format: CSV
-Records: 65,000
-🔗 Data Workflow
+- Source: Stack Overflow Developer Survey
+- Format: CSV
+- Records: 65,000
+
+## 🔗 Data Workflow
 
 ### ***Data Loading***
 
@@ -85,6 +86,7 @@ Built an interactive dashboard in Looker Studio showing:
 ### 👤 Author
 
 Abdelhak Morhlia
+
 
 
 
