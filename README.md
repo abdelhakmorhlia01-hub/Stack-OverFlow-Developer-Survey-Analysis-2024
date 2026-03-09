@@ -27,26 +27,26 @@ Imported CSV into Python using Pandas
 
 1. ***Data Cleaning***
 
-Removed duplicate records to ensure data integrity.
-Handled missing values by filling, filtering, or excluding key columns such as Compensation and Country.
-Converted data types where necessary.
-Cleaned and standardized categorical values to improve consistency across the dataset.
-Processed multi-value categorical columns by splitting.
-Removed or filtered extreme and unrealistic salary values to reduce the impact of outliers.
+- Removed duplicate records to ensure data integrity.
+- Handled missing values by filling, filtering, or excluding key columns such as Compensation and Country.
+- Converted data types where necessary.
+- Cleaned and standardized categorical values to improve consistency across the dataset.
+- Processed multi-value categorical columns by splitting.
+- Removed or filtered extreme and unrealistic salary values to reduce the impact of outliers.
 
 2. ***Data Analysis***
 
-Performed exploratory data analysis to understand the distribution of developer demographics such as country, age, and education.
-Analyzed annual compensation across different categories to identify salary trends.
-Examined the most commonly used and desired languages, platforms, databases, and frameworks.
-Grouped data and calculated summary statistics such as average salary and technology usage frequency.
+- Performed exploratory data analysis to understand the distribution of developer demographics such as country, age, and education.
+- Analyzed annual compensation across different categories to identify salary trends.
+- Examined the most commonly used and desired languages, platforms, databases, and frameworks.
+- Grouped data and calculated summary statistics such as average salary and technology usage frequency.
 
 3.***Feature Engineering***
 
-Split multi-value categorical columns (e.g., programming languages, databases, platforms, and web frameworks) into individual values to enable clear visualization.
-Created separate structured tables for each technology category such as languages and platforms.
-Built a demographic table containing key attributes such as age and country.
-Exported the transformed datasets as CSV files to prepare them for visualization and dashboard development in Looker Studio.
+- Split multi-value categorical columns (e.g., programming languages, databases, platforms, and web frameworks) into individual values to enable clear visualization.
+- Created separate structured tables for each technology category such as languages and platforms.
+- Built a demographic table containing key attributes such as age and country.
+- Exported the transformed datasets as CSV files to prepare them for visualization and dashboard development in Looker Studio.
 
 4. ***Data Visualization***
    
@@ -85,5 +85,6 @@ Built an interactive dashboard in Looker Studio showing:
 ### 👤 Author
 
 Abdelhak Morhlia
+
 
 
